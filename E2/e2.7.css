@@ -1,0 +1,12 @@
+.sec7 .panel {
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+}
+
+.sec7 .panel>h2 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

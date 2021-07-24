@@ -1,3 +1,13 @@
+@import url(./e2.1.css);
+@import url(./e2.2.css);
+@import url(./e2.3.css);
+@import url(./e2.4.css);
+@import url(./e2.5.css);
+@import url(./e2.6.css);
+@import url(./e2.7.css);
+@import url(./e2.8.css);
+@import url(./e2.9.css);
+@import url(./e2.10.css);
 :root{
     font-family: sans-serif;
     --marginse: 2rem ;

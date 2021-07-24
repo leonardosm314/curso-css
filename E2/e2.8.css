@@ -1,0 +1,24 @@
+.sec8 .panel.a {
+    font-size: 0.75em;
+}
+
+.sec8 .panel.b {
+    font-size: 0.875em;
+}
+
+.sec8 .panel.c {
+    font-size: 1em;
+}
+
+.sec8 .panel {
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+}
+
+.sec8 .panel>h2 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

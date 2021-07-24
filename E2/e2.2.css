@@ -1,0 +1,13 @@
+.sec2 .box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.sec2 .box-small {
+    font-size: 12px;
+}
+
+.sec2 .box-large {
+    font-size: 18px;
+}
