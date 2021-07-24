@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="e2.1.css">
+    <title>practica 2</title>
+</head>
+
+<body>
+
+    <h1>Ejercios de "Working with relative units 28"</h1>
+
+    <section >
+        <div class="padded">
+            We have built partnerships with small farms around the world to
+            hand-select beans at the peak of season. We then carefully roast in <a href="/batches">small batches</a> to
+            maximize their potential.
+        </div>
+    </section>
+
+    <section >
+        <span class="box box-small">Small</span>
+        <span class="box box-large">Large</span>
+    </section>
+
+    <section >
+        We love coffee
+        <p class="slogan">We love coffee</p>
+    </section>
+
+    <section >
+        <p class="slogan">We love coffee</p>
+    </section>
+
+    <section>
+        <ul>
+            <li>Top level
+                <ul>
+                    <li>Second level
+                        <ul>
+                            <li>Third level
+                                <ul>
+                                    <li>Fourth level
+                                        <ul>
+                                            <li>Fifth level</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section >
+        <ul>
+            <li>Top level
+                <ul>
+                    <li>Second level
+                        <ul>
+                            <li>Third level
+                                <ul>
+                                    <li>Fourth level
+                                        <ul>
+                                            <li>Fifth level</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section >
+        <ul>
+            <li>Top level
+                <ul>
+                    <li>Second level
+                        <ul>
+                            <li>Third level
+                                <ul>
+                                    <li>Fourth level
+                                        <ul>
+                                            <li>Fifth level</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section >
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="panel-body">
+                We have built partnerships with small farms around the world to
+                hand-select beans at the peak of season. We then carefully roast
+                in <a href="/batch-size.html">small batches</a> to maximize their
+                potential.
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div style="width: 300px; float: left;">
+            <div class="panel a">
+                <h2>Single-origin</h2>
+                <div class="body">
+                    We have built partnerships with small farms around the world to
+                    hand-select beans at the peak of season. We then carefully roast
+                    in <a href="/batch-size.html">small batches</a> to maximize their
+                    potential.
+                </div>
+            </div>
+        </div>
+        <div style="width: 800px; float: left; margin-left: 1rem">
+            <div class="panel b">
+                <h2>Single-origin</h2>
+                <div class="body">
+                    We have built partnerships with small farms around the world to
+                    hand-select beans at the peak of season. We then carefully roast
+                    in <a href="/batch-size.html">small batches</a> to maximize their
+                    potential.
+                </div>
+            </div>
+        </div>
+        <div style="width: 1115px; float: left; clear: left; margin-top: 1rem">
+            <div class="panel c">
+                <h2>Single-origin</h2>
+                <div class="body">
+                    We have built partnerships with small farms around the world to
+                    hand-select beans at the peak of season. We then carefully roast
+                    in <a href="/batch-size.html">small batches</a> to maximize their
+                    potential.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="body">
+                We have built partnerships with small farms around the world to
+                hand-select beans at the peak of season. We then carefully roast
+                in <a href="/batch-size.html">small batches</a> to maximize their
+                potential.
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="body">
+                We have built partnerships with small farms around the world to
+                hand-select beans at the peak of season. We then carefully roast
+                in <a href="/batch-size.html">small batches</a> to maximize their
+                potential.
+            </div>
+        </div>
+        <div class="panel large">
+            <h2>Single-origin</h2>
+            <div class="body">
+                We have built partnerships with small farms around the world to
+                hand-select beans at the peak of season. We then carefully roast
+                in <a href="/batch-size.html">small batches</a> to maximize their
+                potential.
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="body">
+                We have built partnerships with small farms
+                around the world to hand-select beans at the
+                peak of season. We then carefully roast in
+                small batches to maximize their potential.
+            </div>
+        </div>
+
+        <aside class="dark">
+            <div class="panel">
+                <h2>Single-origin</h2>
+                <div class="body">
+                    We have built partnerships with small farms
+                    around the world to hand-select beans at the
+                    peak of season. We then carefully roast in
+                    small batches to maximize their potential.
+                </div>
+            </div>
+        </aside>
+
+        <script type="text/javascript">
+            let rootElement = document.documentElement;
+            let styles = getComputedStyle(rootElement);
+            let mainColor = styles.getPropertyValue('--main-bg');
+            console.log(String(mainColor).trim());
+
+            rootElement = document.documentElement;
+            rootElement.style.setProperty('--main-bg', '#cdf');
+        </script>
+    </section>
+
+
+
+</body>
+
+</html>

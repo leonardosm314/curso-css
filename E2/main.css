@@ -1,0 +1,28 @@
+:root{
+    font-family: sans-serif;
+    --marginse: 2rem ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: calc(100% - calc( var(--marginse) * 2 ) );
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem var(--marginse);
+}
+
+
+body > section, h1{
+    margin-bottom: var(--marginse);
+}
+
+body > section {
+    width:  calc(100% - calc( var(--marginse) * 2 ) );
+    height: auto;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: var(--marginse);
+}
