@@ -1,0 +1,72 @@
+
+@media (min-width: 50em) {
+    :root {
+        font-size: 1.125em;
+    }
+    .page-header {
+        padding: 1em 4em;
+    }
+    .hero {
+        padding: 7em 6em;
+        background-image: url(coffee-beans.jpg);
+    }
+    main {
+        padding: 2em 4em;
+    }
+    .nav-menu {
+        padding: 0 4em;
+    }
+}
+
+/**
+   * Main columns
+   */
+
+@media (min-width: 35em) {
+    .page-header {
+        padding: 1em;
+    }
+    .title>h1 {
+        font-size: 2.25rem;
+    }
+    .hero {
+        padding: 10em 3em;
+        font-size: 1.2rem;
+        background-image: url(c1.jpg);
+    }
+    main {
+        padding: 2em 1em;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .menu-dropdown {
+        display: block;
+    }
+    .row {
+        display: flex;
+        margin-left: -.75em;
+        margin-right: -.75em;
+    }
+    .column {
+        flex: 1;
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+    }
+    .nav-menu {
+        display: flex;
+        position: static;
+        border: 0;
+        padding: 0 1em;
+    }
+    .nav-menu>li {
+        flex: 1;
+    }
+    .nav-menu>li+li {
+        border: 0;
+    }
+    .nav-menu>li>a {
+        padding: 0.3em;
+        text-align: center;
+    }
+}

@@ -1,0 +1,26 @@
+.sec4 .media {
+    width: auto;
+    padding: 1.5em;
+    background-color: #eee;
+    border-radius: 0.5em;
+}
+
+.sec4 .media::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sec4 .media__image {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.sec4 .media__body {
+    overflow: auto;
+    margin-top: 0;
+}
+
+.sec4 .media__body>h4 {
+    margin-top: 0;
+}

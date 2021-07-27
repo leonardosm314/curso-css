@@ -1,0 +1,29 @@
+.sec5 .media {
+    padding: 1.5em;
+    background-color: #eee;
+    border-radius: 0.5em;
+}
+
+.sec5 .media::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sec5 .media__image {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.sec5 .media__body {
+    overflow: auto;
+    margin-top: 0;
+}
+
+.sec5 .media__body>h4 {
+    margin-top: 0;
+}
+
+.sec5 .media--right>.media__image {
+    float: right;
+}
