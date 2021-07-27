@@ -1,0 +1,8 @@
+.sec10 .blend {
+    min-height: 400px;
+    background-image: url(img.jpg), url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30vw, 30vw;
+    background-blend-mode: multiply;
+}

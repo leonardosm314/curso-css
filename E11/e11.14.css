@@ -1,0 +1,9 @@
+.sec11 .blend {
+    min-height: 400px;
+    background-image: url(./img.jpg);
+    background-color: #148;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+}
